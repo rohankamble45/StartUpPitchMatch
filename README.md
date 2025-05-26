@@ -1,12 +1,34 @@
-# React + Vite
+# SmartMatch: Startup-Investor Matching Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SmartMatch** is a dynamic, SQL-powered platform designed to streamline the fundraising journey for startups by intelligently connecting them with the most suitable investors based on shared interests, funding stages, and ticket sizes.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Startup Profiles:** Create detailed startup listings with pitch decks, funding stages, industry tags, and traction data.
+- **Investor Profiles:** Define investment criteria including industry focus, ticket size range, preferred stages, and regions.
+- **Intelligent Matching Engine:** SQL-based logic ranks the best-fit investor-startup pairs based on multiple attributes.
+- **Pitch History Tracker:** Monitor all interactions, including pitch initiations, statuses (seen, interested, declined), and engagement dates.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Backend:** MySQL (Relational Database)
+- **Matching Logic:** Advanced SQL queries
+- **Frontend:** [To be built – e.g., React/HTML-CSS]
+
+## 📌 Use Cases
+
+- Startups discover and approach the most relevant investors.
+- Investors efficiently manage deal flow and identify aligned ventures.
+- Both parties track pitch history and communication progress.
+
+## 🏙️ Target Region
+
+Focused on accelerating startup-investor engagement in **Bengaluru** and expanding across innovation hubs.
+
+## 🔧 Setup Instructions
+
+1. Clone the repository.
+2. Set up the MySQL database using the provided SQL scripts.
+3. Populate sample data for startups and investors.
+4. Execute matching queries to test functionality.
+5. (Optional) Integrate UI for full platform experience.
